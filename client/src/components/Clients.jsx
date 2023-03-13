@@ -14,7 +14,7 @@ function Clients() {
     <div>
       {
         !loading && !error && (
-          <table class="table table-striped px-5">
+          <table className="table table-striped px-5">
             <thead>
               <tr>
                 <th scope="col">Name</th>
